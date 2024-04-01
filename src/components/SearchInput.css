@@ -1,0 +1,33 @@
+
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.suggestions-list {
+  top: 100%;
+  left: 0;
+  width: auto;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  right: 0;
+  border: 1px solid #ccc;
+  background: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestions-list li {
+  padding: 8px;
+  cursor: pointer;
+  color: black;
+  text-align: left;
+}
+
+.suggestions-list li:hover {
+  background-color: #e9e9e9;
+}
